@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mari-Gift</title>
+	<link rel="stylesheet" href="./output.css">
+</head>
+
+
+<body class="min-h-screen bg-stone-950 text-white font-nerd">
+    <div class="fixed top-0 w-full h-8 bg-stone-950 border-stone-800 border-[1.5px] flex justify-center items-center">
+        <span id="country" class="">No Country Detected</span>
+    </div>
+    <main class="min-h-screen flex flex-col font-bold gap-3 text-3xl items-center justify-center p-4 mt-10">
+        <h1 id="title" class="text-2xl">GIFT</h1>
+        <section
+            id="contador"
+            class="grid grid-cols-2 sm:grid-cols-4
+                   gap-3 sm:gap-4
+                   w-full max-w-5xl
+                   p-3 sm:p-5
+                   rounded-2xl
+                   border border-stone-500
+                  "
+        >
+
+            <div class="min-w-0 min-h-32 sm:min-h-44
+                        rounded-xl bg-linear-to-b from-stone-900 to-[#13294b]
+                        flex flex-col items-center justify-center
+                        gap-2 p-3">
+
+                <output id="days"
+                    class="text-4xl sm:text-5xl md:text-6xl
+                           font-bold tabular-nums text-zinc-100">
+                    12
+                </output>
+
+                <span class="text-sm sm:text-base md:text-lg text-stone-400">
+                    Días
+                </span>
+            </div>
+
+            <div class="min-w-0 min-h-32 sm:min-h-44
+                        rounded-xl bg-linear-to-b from-stone-900 to-[#51252F]
+                        flex flex-col items-center justify-center
+                        gap-2 p-3">
+
+                <output id="hours"
+                    class="text-4xl sm:text-5xl md:text-6xl
+                           font-bold tabular-nums text-zinc-100">
+                    23
+                </output>
+
+                <span class="text-sm sm:text-base md:text-lg text-stone-400">
+                    Horas
+                </span>
+            </div>
+
+            <div class="min-w-0 min-h-32 sm:min-h-44
+                        rounded-xl bg-linear-to-b from-stone-900 to-[#606F49]
+                        flex flex-col items-center justify-center
+                        gap-2 p-3">
+
+                <output id="minutes"
+                    class="text-4xl sm:text-5xl md:text-6xl
+                           font-bold tabular-nums text-zinc-100">
+                    32
+                </output>
+
+                <span class="text-sm sm:text-base md:text-lg text-stone-400">
+                    Minutos
+                </span>
+            </div>
+
+            <div class="min-w-0 min-h-32 sm:min-h-44
+                        rounded-xl bg-linear-to-b from-stone-900 to-[#A47864]
+                        flex flex-col items-center justify-center
+                        gap-2 p-3">
+
+                <output id="seconds"
+                    class="text-4xl sm:text-5xl md:text-6xl
+                           font-bold tabular-nums text-zinc-100">
+                    52
+                </output>
+
+                <span class="text-sm sm:text-base md:text-lg text-stone-400-400">
+                    Segundos
+                </span>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+	
+
+</html>

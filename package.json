@@ -1,0 +1,26 @@
+{
+  "name": "mari-gift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch",
+    "build":"npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --minify"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuanticDemon/mari-gift.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/QuanticDemon/mari-gift/issues"
+  },
+  "homepage": "https://github.com/QuanticDemon/mari-gift#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}
